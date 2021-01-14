@@ -1,0 +1,171 @@
+/*------All------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.buy-now{
+    background-color: rgb(128, 170, 52);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/*-----Header-----*/
+.header{
+    background-color: rgb(246, 238, 235);
+    padding-bottom: 100px;
+}
+.menu li .menu-link{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    
+}
+.menu li .menu-link:hover{
+    color: green !important;
+    background-color: white;
+
+}
+.site-cover-info p{
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
+.site-cover-title{
+    font-size: 50px;
+    font-weight: bold;
+    transform: scaleY(1.4);
+    line-height: 1;
+}
+.site-cover-fire{
+    color: rgb(246, 170, 28);
+}
+
+/*--------Main---------*/
+.jacket-type,.spacial-offer{
+    padding: 50px 0;
+    transform: scaleY(1.4);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.product{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -1px 1px 8px 3px rgb(230, 231, 229);
+    margin:25px 0;
+    overflow: hidden;
+}
+.product .product-header{
+    border-radius: 20px;
+    border: none;
+    height: 390px;
+}
+.product .product-footer{
+    border: none;
+    background-color: white;
+}
+.product img{
+    width: 300px;
+    height: 370px;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+.product img:hover{
+    transform: scale(0.9,0.9)
+}
+
+/*-----Our Feature-----*/
+.our-features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.our-features .xmlid{
+    padding: 20px;
+    width: 100%;
+}
+.feature{
+    box-shadow: -1px 1px 8px 3px rgb(230, 231, 229);
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 0 25px;
+}
+.featur-img,.feature-info{
+    padding: 15px;
+}
+.feature .feature-img img{
+    width: 80px
+}
+
+/*----Spacial Offer----*/
+.offer-banner{
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size:100%;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    height: 400px;
+    padding: 20px;
+    max-width:100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.offer-banner .offer-info{
+    top: 100px;
+    position: absolute;
+    left: 30px;
+}
+.offer-info h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.offer-info .offer-rate{
+    color: red;
+}
+
+.spacial-offer-product{
+    margin-top: 50px;
+}
+.offer-product{
+    background-color: rgb(243, 246, 241);
+    padding: 10px;
+    margin: 10px 0;
+    height: 200px;
+    box-shadow: -2px 1px 3px 3px #dbdddb;
+    border-radius: 10px;
+    position: relative;
+
+}
+.offer-product-info{
+    margin-left: 5px;
+}
+.offer-product-img img{
+    width:100px;
+    transition: 1s;
+}
+.offer-product-img img:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+/*----Footer Section-----*/
+.footer{
+    background-color: rgb(194, 223, 141);
+    padding-top: 50px;
+    border: 1px solid rgb(194, 223, 141);
+}
+.footer ul li a{
+    color: black;
+}
+.footer .payment img{
+    width: 100%;
+}
+.footer h3{
+    padding: 16px;
+}
+
+

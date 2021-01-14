@@ -1,0 +1,25 @@
+
+
+@media screen and (max-width: 1200px){
+    .site-cover-info{
+        margin-top: 80px;
+    }
+    .product img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .our-features{
+        text-align: center;
+    }
+    .site-cover-info{
+        margin-top: 80px;
+    }
+    .product img{
+        width: 300px;
+    }
+    .offer-banner .offer-info{
+        top: 50px;
+    }
+}
